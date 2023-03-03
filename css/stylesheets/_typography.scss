@@ -1,0 +1,52 @@
+html {
+	font-size        : 112.5%;
+	font-size-adjust : initial;
+}
+
+html, body {
+	color       : $text;
+	font-family : $font-family;
+	line-height : 1;
+}
+
+body {
+	font-size : 1rem;
+}
+
+p {
+	color     : $text;
+	font-size : 1em;
+	line-height : 1.5;
+	margin : 0 auto 1em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color       : $text;
+	font-weight : 600;
+	line-height : 1;
+	margin      : 0 auto 1rem;
+}
+
+a,a:link,a:any-link {
+	font-size : inherit;
+	color: $primary-color;
+	text-decoration : none;
+	font-weight : normal;
+	display : inline-block;
+	line-height : inherit;
+	transition: $transition;
+	&:hover {
+		color: hover-color($primary-color);
+	}
+	&:focus {
+		color : focus-color($primary-color);
+	}
+	&:active {
+		color : active-color($primary-color);
+	}
+}
+
+.lead {
+	font-size : xx-large;
+	font-weight : 600;
+}

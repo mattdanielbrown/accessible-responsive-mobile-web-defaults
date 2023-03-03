@@ -1,0 +1,36 @@
+
+
+//------------------------------------------------------------------------------
+// Fontstacks
+//------------------------------------------------------------------------------
+
+$system-fontstack : system-ui, -apple-system,
+BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+'Ubuntu', 'Cantarell', 'Noto Sans', sans-serif,
+'Apple Color Emoji', 'Segoe UI Emoji',
+'Segoe UI Symbol', 'Noto Color Emoji';
+/* $main-fontstack: "Inter UI","Inter",Inter,Inter UI; */
+/* $font-family: $main-fontstack,$system-fontstack !default; */
+$font-family      : $system-fontstack !default;
+
+//------------------------------------------------------------------------------
+// Colors
+//------------------------------------------------------------------------------
+
+$text            : rgba(0, 0, 0, 0.8);
+$secondary       : rgba(0, 0, 0, 0.54);
+$disabled        : rgba(0, 0, 0, 0.38);
+$dividers        : rgba(0, 0, 0, 0.12);
+
+$primary-color   : #5b4cf3;
+$secondary-color : #404352;
+
+//------------------------------------------------------------------------------
+// Size Values
+//------------------------------------------------------------------------------
+
+//------------------------------------------------------------------------------
+// Other
+//------------------------------------------------------------------------------
+$default-transition: all 120ms;
+$transition: $default-transition;
